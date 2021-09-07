@@ -1,1 +1,2 @@
-# ST_Memory
+# Video Semantic Segmentation with Spatial-Temporal Fusion and Memory-Augmented Refinement
+This repository is the official implementation of "Video Semantic Segmentation with Spatial-Temporal Fusion and Memory-Augmented Refinement" (accepted by IEEE Transactions on Circuits and Systems for Video Technology(TCSVT) 2021). It is designed for accurate video semantic segmentation task.

@@ -1,5 +1,5 @@
 # Video Semantic Segmentation with Spatial-Temporal Fusion and Memory-Augmented Refinement
-This repository is the official implementation of "Video Semantic Segmentation with Spatial-Temporal Fusion and Memory-Augmented Refinement" (submitted to IEEE Transactions on Circuits and Systems for Video Technology(TCSVT) 2021). It is designed for accurate video semantic segmentation task. It is based on mmsegmentaion.
+This repository is the official implementation of "Video Semantic Segmentation with Spatial-Temporal Fusion and Memory-Augmented Refinement" (submitted to IEEE Transactions on Circuits and Systems for Video Technology(TCSVT) 2021). It is designed for accurate video semantic segmentation task.
 
 ## Install & Requirements
 The code has been tested on pytorch=1.8.1 and python3.7. Please refer to `requirements.txt` for detailed information.

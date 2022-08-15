@@ -1,4 +1,4 @@
-# Video Semantic Segmentation with Spatial-Temporal Fusion and Memory-Augmented Refinement
+# Video Semantic Segmentation with Inter-Frame Feature Fusion and Inner-Frame Feature Refinement
 This repository is the official implementation of "Video Semantic Segmentation with Inter-Frame Feature Fusion and Inner-Frame Feature Refinement" (submitted to Pattern Recognition, 2022). It is designed for accurate video semantic segmentation task.
 
 ## Install & Requirements

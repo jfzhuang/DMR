@@ -1,5 +1,5 @@
 # Video Semantic Segmentation with Inter-Frame Feature Fusion and Inner-Frame Feature Refinement
-This repository is the official implementation of "Video Semantic Segmentation with Inter-Frame Feature Fusion and Inner-Frame Feature Refinement" (submitted to Pattern Recognition, 2022). It is designed for accurate video semantic segmentation task.
+This repository is the official implementation of "Video Semantic Segmentation with Inter-Frame Feature Fusion and Inner-Frame Feature Refinement". It is designed for accurate video semantic segmentation task.
 
 ## Install & Requirements
 The code has been tested on pytorch=1.8.1 and python3.7. Please refer to `requirements.txt` for detailed information.

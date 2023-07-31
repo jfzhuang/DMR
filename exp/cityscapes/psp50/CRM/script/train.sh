@@ -1,7 +1,7 @@
 #!/bin/bash
 export PYTHONPATH=$PYTHONPATH:/code/local/lib/python3.7/site-packages
 export PYTHONPATH=$PYTHONPATH:/code/DRM
-export PYTHONPATH=$PYTHONPATH:/code/mmsegmentation
+export PYTHONPATH=$PYTHONPATH:/code/DRM/mmsegmentation
 
 cd /code/DRM && \
 python ./exp/cityscapes/psp50/CRM/python/train.py \

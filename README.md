@@ -1,5 +1,5 @@
-# Video Semantic Segmentation with Inter-Frame Feature Fusion and Inner-Frame Feature Refinement
-This repository is the official implementation of "Video Semantic Segmentation with Inter-Frame Feature Fusion and Inner-Frame Feature Refinement". It is designed for accurate video semantic segmentation task.
+# Seeing via Contexts and Experiences: Dual Memory-Guided Refinements for Video Semantic Segmentation
+This repository is the official implementation of "Seeing via Contexts and Experiences: Dual Memory-Guided Refinements for Video Semantic Segmentation".
 
 ## Install & Requirements
 The code has been tested on pytorch=1.8.1 and python3.7. Please refer to `requirements.txt` for detailed information.
@@ -34,20 +34,20 @@ $DAVSS_ROOT/data
 ## Train and test
 For example, train our proposed method on Cityscapes on 4 GPUs:
 ````bash
-# train STF
-cd ST_Memory/exp/cityscapes/psp50/STF/script
+# train CRM
+cd DMR/exp/cityscapes/psp50/CRM/script
 bash train.sh
-# generate key-value memory bank
-cd ST_Memory/exp/cityscapes/psp50/generate_memory/script
+# generate experience-based memory bank
+cd DMR/exp/cityscapes/psp50/generate_memory/script
 bash test.sh
-# train MAR
-cd ST_Memory/exp/cityscapes/psp50/MAR/script
+# train ERM
+cd DMR/exp/cityscapes/psp50/ERM/script
 bash train.sh
 ````
 
 For example, test our proposed method on Cityscapes validation set:
 ````bash
-cd ST_Memory/exp/cityscapes/psp50/MAR/script
+cd DMR/exp/cityscapes/psp50/ERM/script
 bash test.sh
 ````
 
@@ -55,4 +55,4 @@ bash test.sh
 We provide trained model on Cityscapes datasets. Please download models from:
 | model | Link |
 | :--: | :--: |
-| psp50+STF+MAR | [BaiduYun(Access Code:xq7x)](https://pan.baidu.com/s/1uFVitsS47oq58Z3RAiCQrQ)
+| psp50+CRM+ERM | [BaiduYun(Access Code:xq7x)](https://pan.baidu.com/s/1uFVitsS47oq58Z3RAiCQrQ)
